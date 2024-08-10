@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::redirect('/totem', '/totem/tasks')->name('totem-redirect');
+
 Route::get('/', [ShopController::class, 'index'])->name('shops.index');
 Route::get('/{id}', [ShopController::class, 'show'])->name('shops.show');
 

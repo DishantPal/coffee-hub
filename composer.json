@@ -11,7 +11,8 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "orangehill/iseed": "^3.0",
-        "silber/page-cache": "^1.1"
+        "silber/page-cache": "^1.1",
+        "studio/laravel-totem": "^11.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
