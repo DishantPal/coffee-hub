@@ -21,10 +21,10 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call([
-            // ShopSeederFresh::class,
-            // ProductSeederFresh::class,
+            ShopSeederFresh::class,
+            ProductSeederFresh::class,
         ]);
-        $this->call(ShopsTableSeeder::class);
-        $this->call(ProductsTableSeeder::class);
+        // $this->call(ShopsTableSeeder::class);
+        // $this->call(ProductsTableSeeder::class);
     }
 }

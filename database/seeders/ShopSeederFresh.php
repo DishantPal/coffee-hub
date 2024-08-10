@@ -48,6 +48,7 @@ class ShopSeederFresh extends Seeder
                     'points_per_dollar' => rand(1, 5),
                     'rewards' => $faker->sentence,
                 ]),
+                'is_promoted' => rand(0, 1),
             ];
         }
 
